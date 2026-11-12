@@ -1,0 +1,5 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["renderer.ts", "vite.config.ts"],
+  "compilerOptions": { "composite": false }
+}

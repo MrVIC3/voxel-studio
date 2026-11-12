@@ -1,0 +1,2 @@
+export const MAX_IMPORT_BLOCKS = 1_000_000;
+export const MAX_PROJECT_BLOCKS = 2_000_000;

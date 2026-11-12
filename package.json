@@ -1,0 +1,53 @@
+{
+  "name": "voxel-studio",
+  "version": "0.5.0",
+  "private": true,
+  "description": "A local Minecraft animation workspace",
+  "main": "electron/main.cjs",
+  "author": "Voxel Studio",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "start": "electron .",
+    "desktop": "npm run build && electron .",
+    "test": "tsx --test tests/*.test.ts",
+    "package": "npm run build && node scripts/package.mjs",
+    "test:desktop": "node scripts/smoke-desktop.cjs",
+    "builder:build": "tsc -p builder/tsconfig.json && vite build --config builder/vite.config.ts",
+    "builder:start": "node builder/start.cjs",
+    "builder:test": "node --test builder/tests/*.test.mjs",
+    "builder:smoke": "node builder/tests/render-smoke.cjs",
+    "builder:mod": "powershell -NoProfile -ExecutionPolicy Bypass -File mod/build.ps1",
+    "format": "prettier --write src tests scripts electron",
+    "builder:package": "npm run builder:build && node builder/package.mjs",
+    "builder:install-skill": "node builder/install-skill.cjs",
+    "builder:check-skill": "node builder/check-skill.cjs",
+    "builder:benchmark": "node builder/benchmark.mjs",
+    "builder:benchmark-render": "node builder/tests/performance-render.cjs"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "lucide-react": "^0.468.0",
+    "mediabunny": "^1.62.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "semver": "^7.8.5",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@electron/asar": "^4.0.1",
+    "@electron/packager": "^20.3.0",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^45.0.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

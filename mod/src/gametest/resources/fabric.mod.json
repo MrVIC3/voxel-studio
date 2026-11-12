@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"voxel-build-tests","version":"1.0.0","name":"Voxel Build Integration Tests","environment":"*","entrypoints":{"fabric-gametest":["studio.voxel.build.BridgeGameTest"]}}

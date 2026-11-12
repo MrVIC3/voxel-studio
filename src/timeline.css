@@ -1,0 +1,281 @@
+.timeline .timeline-transport {
+  height: 37px;
+  padding-inline: 10px;
+  gap: 12px;
+  background: #242424;
+  border-bottom: 1px solid #151515;
+  overflow-x: auto;
+}
+.timeline .timeline-title {
+  min-width: 0;
+  margin-right: 0;
+  flex: 0 0 auto;
+}
+.timeline .transport-buttons {
+  flex-shrink: 0;
+  margin-inline: auto;
+}
+.timeline .timeline-timing {
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.timeline .timeline-actions {
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.timeline .timeline-actions > .button {
+  min-height: 24px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.timeline .transport-buttons .play-button {
+  background: #363636;
+  border: 1px solid #4d4d4d;
+  min-width: 29px;
+}
+.timeline .timeline-toolstrip {
+  min-height: 33px;
+  padding: 3px 10px;
+  gap: 12px;
+  overflow-x: auto;
+}
+.timeline .track-filter,
+.timeline .timeline-view-tools,
+.timeline-edit-tools {
+  flex-shrink: 0;
+}
+.timeline .track-filter input {
+  width: clamp(76px, 11vw, 152px);
+}
+.timeline-edit-tools {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding-inline: 7px;
+  border-inline: 1px solid #3a3a3a;
+}
+.timeline-edit-tools .icon-button {
+  width: 24px;
+  min-width: 24px;
+  height: 23px;
+}
+.timeline-edit-tools .icon-button svg {
+  width: 14px;
+}
+.timeline-edit-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #ddd;
+  font-size: 11px;
+}
+.timeline-edit-button:hover:not(:disabled) {
+  background: #424242;
+  color: white;
+}
+.timeline-edit-button:disabled {
+  opacity: 0.4;
+}
+.timeline .timeline-selected-count {
+  color: #bfbfbf;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+.timeline .timeline-view-tools {
+  margin-left: auto;
+}
+.timeline .timeline-scroll {
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+}
+.timeline .ruler-label {
+  color: #ddd;
+  gap: 6px;
+  font-size: 11px;
+}
+.timeline .ruler-label .icon-button {
+  width: 22px;
+  min-width: 22px;
+  height: 23px;
+}
+.timeline .ruler-label .icon-button svg {
+  width: 13px;
+}
+.timeline .track-label {
+  font-size: 11px;
+}
+.timeline .summary-track-row .track-label {
+  background: #2b2b2b;
+  color: #eee;
+  font-weight: 600;
+}
+.timeline .summary-track-row .track-lane {
+  background-color: #292929;
+}
+.timeline .timeline-row.selected > .track-label {
+  background: #414141;
+  color: #fff;
+}
+.timeline .timeline-row.selected > .track-lane {
+  background-color: #2e2e2e;
+}
+.timeline .timeline-row:not(.summary-track-row):nth-child(even):not(.selected) > .track-lane {
+  background-color: #ffffff04;
+}
+.timeline .track-label .timeline-lock {
+  display: grid;
+  place-items: center;
+  flex: none;
+  color: #aaa;
+}
+.track-key-count {
+  height: 19px;
+  min-width: 23px;
+  padding-inline: 4px;
+  border-radius: 3px;
+  color: #b6b6b6;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.track-key-count:hover {
+  background: #525252;
+  color: white;
+}
+.timeline .track-lane {
+  cursor: default;
+}
+.timeline .timeline-content {
+  display: flex;
+  flex-direction: column;
+}
+.timeline .timeline-ruler,
+.timeline .timeline-track-area {
+  flex: none;
+}
+.timeline-blank {
+  flex: 1;
+  min-height: 24px;
+  touch-action: none;
+}
+.timeline .keyframe {
+  height: 25px;
+  cursor: grab;
+  width: 15px;
+}
+.timeline .keyframe:active {
+  cursor: grabbing;
+}
+.timeline .keyframe span {
+  width: 7px;
+  height: 7px;
+  background: #999;
+}
+.timeline .face-keyframe span {
+  border-radius: 50%;
+  transform: none;
+}
+.timeline .summary-keyframe span {
+  width: 8px;
+  height: 8px;
+  background: #373737;
+  border-color: #c5c5c5;
+}
+.timeline .keyframe.part-selected span {
+  background: #8b8b8b;
+  border-color: #fff;
+}
+.timeline .keyframe.selected {
+  z-index: 4;
+}
+.timeline .keyframe.selected span {
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-color: white;
+  box-shadow: 0 0 0 2px #1b1b1b;
+}
+.timeline .keyframe:not(.selected):hover span,
+.timeline .keyframe:not(.selected).at-playhead span {
+  background: #c7c7c7;
+  border-color: #eee;
+}
+.timeline .locked-track-row .keyframe {
+  cursor: default;
+}
+.timeline .locked-track-row .keyframe:not(.selected) {
+  opacity: 0.55;
+}
+.timeline .playhead-line {
+  background: #dcdcdc;
+  opacity: 0.85;
+}
+.timeline-context {
+  position: fixed;
+  z-index: 70;
+  width: 234px;
+  padding: 4px;
+  display: grid;
+  gap: 1px;
+  background: #252525;
+  color: #eee;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px #0009;
+  max-height: min(318px, 88vh);
+  overflow-y: auto;
+}
+.timeline-context strong {
+  padding: 5px 8px;
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #bfbfbf;
+  border-bottom: 1px solid #3d3d3d;
+}
+.timeline-context button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 7px;
+  min-height: 25px;
+  border-radius: 2px;
+  text-align: left;
+  font-size: 11px;
+}
+.timeline-context button:not(:disabled):hover {
+  background: #484848;
+}
+.timeline-context button:disabled {
+  opacity: 0.36;
+}
+.timeline-context kbd {
+  margin-left: auto;
+  color: #b5b5b5;
+  font: inherit;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.timeline .ruler-tick {
+  bottom: calc(4px + var(--camera-fx-strip, 0px));
+}
+.timeline .timeline-ruler.has-shots .ruler-tick {
+  bottom: calc(23px + var(--camera-fx-strip, 0px));
+}
+.camera-fx-marker {
+  position: absolute;
+  height: 17px;
+  padding: 1px 4px;
+  border-left: 2px solid #eee;
+  background: #535353;
+  color: #f2f2f2;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 9px;
+}
+.camera-fx-marker:hover {
+  background: #777;
+}

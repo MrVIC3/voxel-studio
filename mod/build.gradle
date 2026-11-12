@@ -1,0 +1,25 @@
+plugins { id 'fabric-loom' version '1.14.10' }
+version = '0.1.0'
+group = 'studio.voxel'
+base { archivesName = 'voxel-build-bridge' }
+repositories { mavenCentral() }
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand 'version':project.version } }
+
+// Opt-in real Minecraft tests, isolated from the player's installation/worlds.
+if (project.hasProperty('bridgeGameTests')) {
+    fabricApi.configureTests {
+        createSourceSet = true
+        modId = 'voxel-build-tests'
+        enableGameTests = true
+        enableClientGameTests = false
+        eula = false
+    }
+}

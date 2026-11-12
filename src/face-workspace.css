@@ -1,0 +1,278 @@
+.app[data-face-workspace='true'] .editor-main {
+  grid-template-columns: minmax(0, 1fr);
+}
+.app[data-face-workspace='true'] .editor-main > :not(.viewport-shell) {
+  display: none;
+}
+.app[data-face-workspace='true'] .viewport-shell > :not(.face-workbench) {
+  visibility: hidden;
+  pointer-events: none;
+}
+.app[data-face-workspace='true'] .timeline,
+.app[data-face-workspace='true'] .timeline-resize {
+  visibility: hidden;
+  overflow: hidden;
+  pointer-events: none;
+}
+.face-workbench {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  grid-template-rows: 41px minmax(0, 1fr) auto;
+  background: #202020;
+  color: #e9e9e9;
+}
+.face-workbench-bar,
+.face-track-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 6px 13px;
+}
+.face-workbench-bar {
+  border-bottom: 1px solid #3c3c3c;
+  background: #1a1a1a;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.face-workbench-bar .character-modes {
+  margin: 0 auto 0 0;
+  flex-wrap: nowrap;
+}
+.face-workbench-title,
+.face-workbench-bar label {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.face-workbench:focus {
+  outline: none;
+}
+.face-workbench-bar label,
+.face-track-tools label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #c4c4c4;
+}
+.face-workbench select {
+  height: 24px;
+  padding: 2px 8px;
+  line-height: 18px;
+}
+.face-workbench-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: 650;
+}
+.face-workbench-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(246px, 29%, 350px);
+  min-height: 0;
+}
+.face-workbench-stage {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  background: #232323;
+}
+.face-preview {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #d2d2d2;
+}
+.face-preview canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.face-preview-help {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  color: #aaa;
+  pointer-events: none;
+}
+.face-workbench-controls {
+  min-height: 0;
+  min-width: 0;
+  overflow-y: scroll;
+  overflow-x: auto;
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+  border-left: 1px solid #393939;
+  background: #252525;
+}
+.face-workbench-controls .property-section {
+  margin: 0;
+}
+.face-workbench-empty {
+  display: grid;
+  place-items: center;
+  color: #bfbfbf;
+}
+.gaze-editor {
+  padding: 10px 12px;
+  border-bottom: 1px solid #3b3b3b;
+}
+.gaze-editor > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.gaze-pad {
+  position: relative;
+  height: 96px;
+  overflow: hidden;
+  border: 1px solid #505050;
+  cursor: crosshair;
+  touch-action: none;
+  background:
+    linear-gradient(#494949, #494949) center / 1px 100% no-repeat,
+    linear-gradient(#494949, #494949) center / 100% 1px no-repeat,
+    #1b1b1b;
+}
+.gaze-pad:focus-visible {
+  outline: 1px solid #eee;
+  outline-offset: 2px;
+}
+.gaze-pad span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border: 2px solid #222;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.face-track {
+  border-top: 1px solid #414141;
+  background: #202020;
+  max-height: min(220px, 38vh);
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+.character-look-editor {
+  width: 100%;
+  min-inline-size: 0;
+}
+.character-light-guide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.character-light-guide line {
+  stroke: #dedede;
+  stroke-width: 1px;
+  stroke-dasharray: 4 4;
+  opacity: 0.7;
+}
+.character-light-gizmo {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  cursor: grab;
+  transform: translate(-50%, -50%);
+  touch-action: none;
+}
+.character-light-gizmo:active {
+  cursor: grabbing;
+  background: #555;
+}
+.character-light-gizmo:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+.character-light-visibility {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 12px;
+  padding: 5px 8px;
+  background: #202020;
+}
+.face-preview[data-picking='true'] canvas {
+  cursor: crosshair;
+}
+.face-track-tools {
+  border-bottom: 1px solid #343434;
+  gap: 8px;
+}
+.face-track-tools .number-field {
+  width: 55px;
+}
+.face-range {
+  margin-left: auto;
+}
+.face-ruler {
+  margin: 4px 22px 5px;
+}
+.face-ruler input {
+  width: 100%;
+  margin: 0;
+  accent-color: #dfdfdf;
+  cursor: ew-resize;
+}
+.face-ruler-marks {
+  position: relative;
+  height: 18px;
+  border-top: 1px solid #3e3e3e;
+  background: #272727;
+}
+.face-ruler-marks button {
+  position: absolute;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  transform: translateX(-50%) rotate(45deg);
+  padding: 0;
+  border: 1px solid #a4a4a4;
+  background: #454545;
+}
+.face-ruler-marks button:hover,
+.face-ruler-marks button.current {
+  background: #fff;
+}
+.face-playhead {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: #ddd;
+  pointer-events: none;
+}
+.face-ruler-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #aaa;
+  font-variant-numeric: tabular-nums;
+}
+.face-mode-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+.face-mode-switch button[aria-pressed='true'] {
+  background: #5a5a5a;
+  color: #fff;
+}

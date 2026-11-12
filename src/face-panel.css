@@ -1,0 +1,57 @@
+.face-controls {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.face-controls:disabled {
+  opacity: 0.65;
+}
+.face-key-tools {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 8px;
+}
+.face-key-button {
+  flex: 1;
+  justify-content: center;
+}
+.face-layout {
+  border-top: 1px solid var(--line, #444);
+  margin-top: 10px;
+}
+.face-layout summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-size: 11px;
+  color: var(--muted, #aaa);
+}
+.face-layout .number-field {
+  width: 72px;
+}
+.face-layout input[type='color'] {
+  width: 35px;
+  height: 22px;
+  padding: 1px;
+}
+.face-key-hint {
+  margin-top: 5px;
+}
+.timeline-virtual .face-keyframe {
+  cursor: pointer;
+}
+.timeline-virtual .face-keyframe span {
+  transform: none;
+  border: 1px solid #bcbcbc;
+  border-radius: 50%;
+  background: #393939;
+}
+.timeline-virtual .face-keyframe:hover span,
+.timeline-virtual .face-keyframe:focus-visible span,
+.timeline-virtual .face-keyframe.at-playhead span {
+  width: 8px;
+  height: 8px;
+  background: #e8e8e8;
+  border-color: #fff;
+}

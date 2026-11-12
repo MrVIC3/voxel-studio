@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "voxel_build_bridge",
+  "version": "${version}",
+  "name": "Voxel Build Bridge",
+  "description": "Authenticated local world inspection and reversible Codex building transactions.",
+  "authors": ["Voxel Studio"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["studio.voxel.build.VoxelBuildBridge"] },
+  "depends": { "fabricloader": ">=0.18.4", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}

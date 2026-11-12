@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Voxel Build</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #17232d;
+        color: #ced8df;
+        font: 14px system-ui;
+      }
+      canvas {
+        display: block;
+      }
+      #status {
+        position: absolute;
+        top: 20px;
+        left: 24px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="status">Voxel Build · Loading Minecraft 1.21.11 resources…</div>
+    <script type="module" src="./renderer.ts"></script>
+  </body>
+</html>

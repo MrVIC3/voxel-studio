@@ -1,0 +1,3144 @@
+{
+  "version": 1,
+  "intent": "A compact masonry castle with a dominant steep-roofed hall, deep recessed window bays, stepped supports, paired gate towers, a clearly framed entrance and planted usable courtyard.",
+  "frame": {
+    "min": [
+      -3,
+      -1,
+      -1
+    ],
+    "max": [
+      33,
+      26,
+      34
+    ]
+  },
+  "components": [
+    {
+      "id": "terrace",
+      "role": "stepped foundation and courtyard",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            -1,
+            0
+          ],
+          "to": [
+            31,
+            0,
+            32
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            1,
+            1
+          ],
+          "to": [
+            30,
+            1,
+            31
+          ],
+          "block": "minecraft:stone"
+        },
+        {
+          "op": "fill",
+          "from": [
+            12,
+            1,
+            20
+          ],
+          "to": [
+            18,
+            1,
+            31
+          ],
+          "block": "minecraft:polished_andesite"
+        }
+      ],
+      "replace": []
+    },
+    {
+      "id": "enclosure",
+      "role": "low perimeter with rhythmic buttresses",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            0,
+            2,
+            1
+          ],
+          "to": [
+            0,
+            7,
+            22
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            2
+          ],
+          "to": [
+            0,
+            5,
+            3
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            2
+          ],
+          "to": [
+            0,
+            8,
+            2
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            3
+          ],
+          "to": [
+            0,
+            8,
+            3
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            7
+          ],
+          "to": [
+            0,
+            5,
+            8
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            7
+          ],
+          "to": [
+            0,
+            8,
+            7
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            8
+          ],
+          "to": [
+            0,
+            8,
+            8
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            12
+          ],
+          "to": [
+            0,
+            5,
+            13
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            12
+          ],
+          "to": [
+            0,
+            8,
+            12
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            13
+          ],
+          "to": [
+            0,
+            8,
+            13
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            17
+          ],
+          "to": [
+            0,
+            5,
+            18
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            17
+          ],
+          "to": [
+            0,
+            8,
+            17
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            18
+          ],
+          "to": [
+            0,
+            8,
+            18
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            22
+          ],
+          "to": [
+            0,
+            5,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            22
+          ],
+          "to": [
+            0,
+            8,
+            22
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            8,
+            23
+          ],
+          "to": [
+            0,
+            8,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            1
+          ],
+          "to": [
+            30,
+            7,
+            22
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            2
+          ],
+          "to": [
+            31,
+            5,
+            3
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            2
+          ],
+          "to": [
+            30,
+            8,
+            2
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            3
+          ],
+          "to": [
+            30,
+            8,
+            3
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            7
+          ],
+          "to": [
+            31,
+            5,
+            8
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            7
+          ],
+          "to": [
+            30,
+            8,
+            7
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            8
+          ],
+          "to": [
+            30,
+            8,
+            8
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            12
+          ],
+          "to": [
+            31,
+            5,
+            13
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            12
+          ],
+          "to": [
+            30,
+            8,
+            12
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            13
+          ],
+          "to": [
+            30,
+            8,
+            13
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            17
+          ],
+          "to": [
+            31,
+            5,
+            18
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            17
+          ],
+          "to": [
+            30,
+            8,
+            17
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            18
+          ],
+          "to": [
+            30,
+            8,
+            18
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            22
+          ],
+          "to": [
+            31,
+            5,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            22
+          ],
+          "to": [
+            30,
+            8,
+            22
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            8,
+            23
+          ],
+          "to": [
+            30,
+            8,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            2,
+            1
+          ],
+          "to": [
+            29,
+            7,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            2,
+            8,
+            1
+          ],
+          "to": [
+            3,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            8,
+            1
+          ],
+          "to": [
+            28,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            8,
+            1
+          ],
+          "to": [
+            7,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            23,
+            8,
+            1
+          ],
+          "to": [
+            24,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            10,
+            8,
+            1
+          ],
+          "to": [
+            11,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            19,
+            8,
+            1
+          ],
+          "to": [
+            20,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            14,
+            8,
+            1
+          ],
+          "to": [
+            15,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            8,
+            1
+          ],
+          "to": [
+            16,
+            8,
+            1
+          ],
+          "block": "minecraft:stone_bricks"
+        }
+      ],
+      "replace": []
+    },
+    {
+      "id": "keep",
+      "role": "habitable hall shell and structural corners",
+      "operations": [
+        {
+          "op": "box",
+          "from": [
+            8,
+            2,
+            6
+          ],
+          "to": [
+            22,
+            11,
+            20
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            2,
+            7
+          ],
+          "to": [
+            21,
+            10,
+            19
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "op": "fill",
+          "from": [
+            8,
+            2,
+            6
+          ],
+          "to": [
+            8,
+            11,
+            6
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            8,
+            2,
+            20
+          ],
+          "to": [
+            8,
+            11,
+            20
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            22,
+            2,
+            6
+          ],
+          "to": [
+            22,
+            11,
+            6
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            22,
+            2,
+            20
+          ],
+          "to": [
+            22,
+            11,
+            20
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            1,
+            7
+          ],
+          "to": [
+            21,
+            1,
+            19
+          ],
+          "block": "minecraft:spruce_planks"
+        }
+      ],
+      "replace": [
+        "terrace"
+      ]
+    },
+    {
+      "id": "front-a",
+      "role": "recessed masonry window bay",
+      "type": "wall-bay",
+      "at": [
+        14,
+        2,
+        20
+      ],
+      "rotate": 180,
+      "parameters": {
+        "width": 7,
+        "height": 10
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "front-b",
+      "role": "recessed masonry window bay",
+      "type": "wall-bay",
+      "at": [
+        22,
+        2,
+        20
+      ],
+      "rotate": 180,
+      "parameters": {
+        "width": 7,
+        "height": 10
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "rear-a",
+      "role": "recessed masonry window bay",
+      "type": "wall-bay",
+      "at": [
+        8,
+        2,
+        6
+      ],
+      "rotate": 0,
+      "parameters": {
+        "width": 7,
+        "height": 10
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "rear-b",
+      "role": "recessed masonry window bay",
+      "type": "wall-bay",
+      "at": [
+        16,
+        2,
+        6
+      ],
+      "rotate": 0,
+      "parameters": {
+        "width": 7,
+        "height": 10
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "west-support",
+      "role": "stepped structural buttress",
+      "type": "buttress",
+      "at": [
+        7,
+        2,
+        10
+      ],
+      "rotate": 270,
+      "parameters": {
+        "height": 8
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "east-support",
+      "role": "stepped structural buttress",
+      "type": "buttress",
+      "at": [
+        23,
+        2,
+        8
+      ],
+      "rotate": 90,
+      "parameters": {
+        "height": 8
+      },
+      "replace": [
+        "keep"
+      ]
+    },
+    {
+      "id": "hall-door",
+      "role": "recessed three-wide hall entry",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            14,
+            2,
+            19
+          ],
+          "to": [
+            16,
+            5,
+            21
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "op": "fill",
+          "from": [
+            13,
+            2,
+            21
+          ],
+          "to": [
+            13,
+            5,
+            21
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            17,
+            2,
+            21
+          ],
+          "to": [
+            17,
+            5,
+            21
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            13,
+            6,
+            21
+          ],
+          "to": [
+            17,
+            6,
+            21
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            7,
+            21
+          ],
+          "to": [
+            15,
+            7,
+            21
+          ],
+          "block": "minecraft:polished_andesite"
+        }
+      ],
+      "replace": [
+        "front-a",
+        "front-b",
+        "keep"
+      ]
+    },
+    {
+      "id": "keep-roof",
+      "role": "steep roof with stair eaves and hollow interior",
+      "type": "gable-roof",
+      "at": [
+        7,
+        12,
+        5
+      ],
+      "parameters": {
+        "width": 17,
+        "depth": 17,
+        "rise": 8
+      }
+    },
+    {
+      "id": "roof-details",
+      "role": "ridge ends and chimney",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            14,
+            12,
+            9
+          ],
+          "to": [
+            16,
+            23,
+            10
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            13,
+            24,
+            8
+          ],
+          "to": [
+            17,
+            24,
+            11
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            20,
+            4
+          ],
+          "to": [
+            15,
+            20,
+            4
+          ],
+          "block": "minecraft:deepslate_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            21,
+            4
+          ],
+          "to": [
+            15,
+            21,
+            4
+          ],
+          "block": "minecraft:deepslate_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            20,
+            22
+          ],
+          "to": [
+            15,
+            20,
+            22
+          ],
+          "block": "minecraft:deepslate_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            21,
+            22
+          ],
+          "to": [
+            15,
+            21,
+            22
+          ],
+          "block": "minecraft:deepslate_bricks"
+        }
+      ],
+      "replace": [
+        "keep-roof"
+      ]
+    },
+    {
+      "id": "west-tower",
+      "role": "inhabitable gate tower with ladder, loopholes and crenellated roof",
+      "operations": [
+        {
+          "op": "box",
+          "from": [
+            0,
+            2,
+            23
+          ],
+          "to": [
+            6,
+            13,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            2,
+            24
+          ],
+          "to": [
+            5,
+            12,
+            28
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "op": "fill",
+          "from": [
+            -1,
+            2,
+            22
+          ],
+          "to": [
+            7,
+            3,
+            22
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            6,
+            23
+          ],
+          "to": [
+            3,
+            6,
+            23
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            5,
+            23
+          ],
+          "to": [
+            3,
+            5,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            10,
+            23
+          ],
+          "to": [
+            3,
+            10,
+            23
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            9,
+            23
+          ],
+          "to": [
+            3,
+            9,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            6,
+            29
+          ],
+          "to": [
+            3,
+            6,
+            29
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            5,
+            29
+          ],
+          "to": [
+            3,
+            5,
+            29
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            10,
+            29
+          ],
+          "to": [
+            3,
+            10,
+            29
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            3,
+            9,
+            29
+          ],
+          "to": [
+            3,
+            9,
+            29
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            2,
+            23
+          ],
+          "to": [
+            0,
+            13,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            2,
+            23
+          ],
+          "to": [
+            6,
+            13,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            23
+          ],
+          "to": [
+            0,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            29
+          ],
+          "to": [
+            0,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            23
+          ],
+          "to": [
+            0,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            23
+          ],
+          "to": [
+            6,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            2,
+            14,
+            23
+          ],
+          "to": [
+            2,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            2,
+            14,
+            29
+          ],
+          "to": [
+            2,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            25
+          ],
+          "to": [
+            0,
+            14,
+            25
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            25
+          ],
+          "to": [
+            6,
+            14,
+            25
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            4,
+            14,
+            23
+          ],
+          "to": [
+            4,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            4,
+            14,
+            29
+          ],
+          "to": [
+            4,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            27
+          ],
+          "to": [
+            0,
+            14,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            27
+          ],
+          "to": [
+            6,
+            14,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            23
+          ],
+          "to": [
+            6,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            29
+          ],
+          "to": [
+            6,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            0,
+            14,
+            29
+          ],
+          "to": [
+            0,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            6,
+            14,
+            29
+          ],
+          "to": [
+            6,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            2,
+            26
+          ],
+          "to": [
+            1,
+            2,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            3,
+            26
+          ],
+          "to": [
+            1,
+            3,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            4,
+            26
+          ],
+          "to": [
+            1,
+            4,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            5,
+            26
+          ],
+          "to": [
+            1,
+            5,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            6,
+            26
+          ],
+          "to": [
+            1,
+            6,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            7,
+            26
+          ],
+          "to": [
+            1,
+            7,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            8,
+            26
+          ],
+          "to": [
+            1,
+            8,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            9,
+            26
+          ],
+          "to": [
+            1,
+            9,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            10,
+            26
+          ],
+          "to": [
+            1,
+            10,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            11,
+            26
+          ],
+          "to": [
+            1,
+            11,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            12,
+            26
+          ],
+          "to": [
+            1,
+            12,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            1,
+            13,
+            26
+          ],
+          "to": [
+            1,
+            13,
+            26
+          ],
+          "block": "minecraft:ladder[facing=east,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            2,
+            2,
+            23
+          ],
+          "to": [
+            4,
+            4,
+            23
+          ],
+          "block": "minecraft:air"
+        }
+      ],
+      "replace": [
+        "enclosure"
+      ]
+    },
+    {
+      "id": "east-tower",
+      "role": "inhabitable gate tower with ladder, loopholes and crenellated roof",
+      "operations": [
+        {
+          "op": "box",
+          "from": [
+            24,
+            2,
+            23
+          ],
+          "to": [
+            30,
+            13,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            25,
+            2,
+            24
+          ],
+          "to": [
+            29,
+            12,
+            28
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "op": "fill",
+          "from": [
+            23,
+            2,
+            22
+          ],
+          "to": [
+            31,
+            3,
+            22
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            6,
+            23
+          ],
+          "to": [
+            27,
+            6,
+            23
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            5,
+            23
+          ],
+          "to": [
+            27,
+            5,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            10,
+            23
+          ],
+          "to": [
+            27,
+            10,
+            23
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            9,
+            23
+          ],
+          "to": [
+            27,
+            9,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            6,
+            29
+          ],
+          "to": [
+            27,
+            6,
+            29
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            5,
+            29
+          ],
+          "to": [
+            27,
+            5,
+            29
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            10,
+            29
+          ],
+          "to": [
+            27,
+            10,
+            29
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            27,
+            9,
+            29
+          ],
+          "to": [
+            27,
+            9,
+            29
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            2,
+            23
+          ],
+          "to": [
+            24,
+            13,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            2,
+            23
+          ],
+          "to": [
+            30,
+            13,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            23
+          ],
+          "to": [
+            24,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            29
+          ],
+          "to": [
+            24,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            23
+          ],
+          "to": [
+            24,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            23
+          ],
+          "to": [
+            30,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            26,
+            14,
+            23
+          ],
+          "to": [
+            26,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            26,
+            14,
+            29
+          ],
+          "to": [
+            26,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            25
+          ],
+          "to": [
+            24,
+            14,
+            25
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            25
+          ],
+          "to": [
+            30,
+            14,
+            25
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            28,
+            14,
+            23
+          ],
+          "to": [
+            28,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            28,
+            14,
+            29
+          ],
+          "to": [
+            28,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            27
+          ],
+          "to": [
+            24,
+            14,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            27
+          ],
+          "to": [
+            30,
+            14,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            23
+          ],
+          "to": [
+            30,
+            14,
+            23
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            29
+          ],
+          "to": [
+            30,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            24,
+            14,
+            29
+          ],
+          "to": [
+            24,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            30,
+            14,
+            29
+          ],
+          "to": [
+            30,
+            14,
+            29
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            2,
+            26
+          ],
+          "to": [
+            29,
+            2,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            3,
+            26
+          ],
+          "to": [
+            29,
+            3,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            4,
+            26
+          ],
+          "to": [
+            29,
+            4,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            5,
+            26
+          ],
+          "to": [
+            29,
+            5,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            6,
+            26
+          ],
+          "to": [
+            29,
+            6,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            7,
+            26
+          ],
+          "to": [
+            29,
+            7,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            8,
+            26
+          ],
+          "to": [
+            29,
+            8,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            9,
+            26
+          ],
+          "to": [
+            29,
+            9,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            10,
+            26
+          ],
+          "to": [
+            29,
+            10,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            11,
+            26
+          ],
+          "to": [
+            29,
+            11,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            12,
+            26
+          ],
+          "to": [
+            29,
+            12,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            29,
+            13,
+            26
+          ],
+          "to": [
+            29,
+            13,
+            26
+          ],
+          "block": "minecraft:ladder[facing=west,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            26,
+            2,
+            23
+          ],
+          "to": [
+            28,
+            4,
+            23
+          ],
+          "block": "minecraft:air"
+        }
+      ],
+      "replace": [
+        "enclosure"
+      ]
+    },
+    {
+      "id": "west-face",
+      "role": "deep tower facade with recessed opening and corner piers",
+      "type": "wall-bay",
+      "at": [
+        6,
+        2,
+        29
+      ],
+      "rotate": 180,
+      "parameters": {
+        "width": 7,
+        "height": 11
+      },
+      "replace": [
+        "west-tower"
+      ]
+    },
+    {
+      "id": "east-face",
+      "role": "deep tower facade with recessed opening and corner piers",
+      "type": "wall-bay",
+      "at": [
+        30,
+        2,
+        29
+      ],
+      "rotate": 180,
+      "parameters": {
+        "width": 7,
+        "height": 11
+      },
+      "replace": [
+        "east-tower"
+      ]
+    },
+    {
+      "id": "gable-frame",
+      "role": "timber gable framing and attic glazing",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            7,
+            12,
+            4
+          ],
+          "to": [
+            23,
+            12,
+            4
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            13,
+            4
+          ],
+          "to": [
+            15,
+            19,
+            4
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=y]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            11,
+            15,
+            4
+          ],
+          "to": [
+            19,
+            15,
+            4
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            14,
+            16,
+            4
+          ],
+          "to": [
+            16,
+            17,
+            4
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            14,
+            16,
+            5
+          ],
+          "to": [
+            16,
+            17,
+            5
+          ],
+          "block": "minecraft:air"
+        },
+        {
+          "op": "fill",
+          "from": [
+            7,
+            12,
+            22
+          ],
+          "to": [
+            23,
+            12,
+            22
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            15,
+            13,
+            22
+          ],
+          "to": [
+            15,
+            19,
+            22
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=y]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            11,
+            15,
+            22
+          ],
+          "to": [
+            19,
+            15,
+            22
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            14,
+            16,
+            22
+          ],
+          "to": [
+            16,
+            17,
+            22
+          ],
+          "block": "minecraft:glass"
+        },
+        {
+          "op": "fill",
+          "from": [
+            14,
+            16,
+            21
+          ],
+          "to": [
+            16,
+            17,
+            21
+          ],
+          "block": "minecraft:air"
+        }
+      ],
+      "replace": [
+        "keep-roof"
+      ]
+    },
+    {
+      "id": "front-walls",
+      "role": "gateway flanking wall walks",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            7,
+            2,
+            26
+          ],
+          "to": [
+            10,
+            8,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            7,
+            9,
+            26
+          ],
+          "to": [
+            10,
+            9,
+            27
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            7,
+            10,
+            27
+          ],
+          "to": [
+            7,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            23,
+            10,
+            27
+          ],
+          "to": [
+            23,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            10,
+            27
+          ],
+          "to": [
+            9,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            21,
+            10,
+            27
+          ],
+          "to": [
+            21,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            2,
+            26
+          ],
+          "to": [
+            23,
+            8,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            9,
+            26
+          ],
+          "to": [
+            23,
+            9,
+            27
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            7,
+            10,
+            27
+          ],
+          "to": [
+            7,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            23,
+            10,
+            27
+          ],
+          "to": [
+            23,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            10,
+            27
+          ],
+          "to": [
+            9,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            21,
+            10,
+            27
+          ],
+          "to": [
+            21,
+            10,
+            27
+          ],
+          "block": "minecraft:stone_bricks"
+        }
+      ],
+      "replace": []
+    },
+    {
+      "id": "gate",
+      "role": "deep masonry entrance with framed pointed opening",
+      "type": "gateway",
+      "at": [
+        11,
+        2,
+        26
+      ],
+      "parameters": {
+        "width": 9,
+        "height": 10
+      }
+    },
+    {
+      "id": "interior",
+      "role": "beamed furnished hall and supported lamps",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            9,
+            10,
+            8
+          ],
+          "to": [
+            21,
+            10,
+            8
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            10,
+            12
+          ],
+          "to": [
+            21,
+            10,
+            12
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            9,
+            10,
+            16
+          ],
+          "to": [
+            21,
+            10,
+            16
+          ],
+          "block": "minecraft:stripped_spruce_log[axis=x]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            11,
+            2,
+            9
+          ],
+          "to": [
+            11,
+            2,
+            12
+          ],
+          "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            11,
+            2,
+            8
+          ],
+          "to": [
+            11,
+            3,
+            8
+          ],
+          "block": "minecraft:spruce_planks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            11,
+            2,
+            13
+          ],
+          "to": [
+            11,
+            3,
+            13
+          ],
+          "block": "minecraft:spruce_planks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            19,
+            2,
+            9
+          ],
+          "to": [
+            19,
+            2,
+            12
+          ],
+          "block": "minecraft:spruce_slab[type=top,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            19,
+            2,
+            8
+          ],
+          "to": [
+            19,
+            3,
+            8
+          ],
+          "block": "minecraft:spruce_planks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            19,
+            2,
+            13
+          ],
+          "to": [
+            19,
+            3,
+            13
+          ],
+          "block": "minecraft:spruce_planks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            13,
+            2,
+            8
+          ],
+          "to": [
+            17,
+            2,
+            12
+          ],
+          "block": "minecraft:spruce_planks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            10,
+            2,
+            7
+          ],
+          "to": [
+            10,
+            4,
+            7
+          ],
+          "block": "minecraft:bookshelf"
+        },
+        {
+          "op": "fill",
+          "from": [
+            10,
+            9,
+            12
+          ],
+          "to": [
+            10,
+            9,
+            12
+          ],
+          "block": "minecraft:lantern[hanging=true,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            2,
+            7
+          ],
+          "to": [
+            20,
+            4,
+            7
+          ],
+          "block": "minecraft:bookshelf"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            9,
+            12
+          ],
+          "to": [
+            20,
+            9,
+            12
+          ],
+          "block": "minecraft:lantern[hanging=true,waterlogged=false]"
+        }
+      ],
+      "replace": [
+        "keep",
+        "rear-a",
+        "rear-b"
+      ],
+      "attachments": [
+        {
+          "at": [
+            10,
+            9,
+            12
+          ],
+          "support": [
+            10,
+            10,
+            12
+          ]
+        },
+        {
+          "at": [
+            20,
+            9,
+            12
+          ],
+          "support": [
+            20,
+            10,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gardens",
+      "role": "bounded planted courtyard beds and supported lights",
+      "operations": [
+        {
+          "op": "fill",
+          "from": [
+            4,
+            2,
+            16
+          ],
+          "to": [
+            5,
+            2,
+            20
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            4,
+            3,
+            17
+          ],
+          "to": [
+            5,
+            3,
+            19
+          ],
+          "block": "minecraft:moss_block"
+        },
+        {
+          "op": "fill",
+          "from": [
+            4,
+            4,
+            17
+          ],
+          "to": [
+            4,
+            4,
+            17
+          ],
+          "block": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            4,
+            4,
+            19
+          ],
+          "to": [
+            4,
+            4,
+            19
+          ],
+          "block": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            25,
+            2,
+            16
+          ],
+          "to": [
+            26,
+            2,
+            20
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "op": "fill",
+          "from": [
+            25,
+            3,
+            17
+          ],
+          "to": [
+            26,
+            3,
+            19
+          ],
+          "block": "minecraft:moss_block"
+        },
+        {
+          "op": "fill",
+          "from": [
+            26,
+            4,
+            17
+          ],
+          "to": [
+            26,
+            4,
+            17
+          ],
+          "block": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            26,
+            4,
+            19
+          ],
+          "to": [
+            26,
+            4,
+            19
+          ],
+          "block": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            10,
+            2,
+            23
+          ],
+          "to": [
+            10,
+            3,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            10,
+            4,
+            23
+          ],
+          "to": [
+            10,
+            4,
+            23
+          ],
+          "block": "minecraft:lantern[hanging=false,waterlogged=false]"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            2,
+            23
+          ],
+          "to": [
+            20,
+            3,
+            23
+          ],
+          "block": "minecraft:polished_andesite"
+        },
+        {
+          "op": "fill",
+          "from": [
+            20,
+            4,
+            23
+          ],
+          "to": [
+            20,
+            4,
+            23
+          ],
+          "block": "minecraft:lantern[hanging=false,waterlogged=false]"
+        }
+      ],
+      "replace": []
+    }
+  ],
+  "quality": {
+    "symmetry": [
+      {
+        "name": "castle bilateral symmetry",
+        "axis": "x",
+        "plane": 15,
+        "bounds": {
+          "min": [
+            -3,
+            -1,
+            -1
+          ],
+          "max": [
+            33,
+            26,
+            34
+          ]
+        }
+      }
+    ],
+    "connected": {
+      "bounds": {
+        "min": [
+          -3,
+          -1,
+          -1
+        ],
+        "max": [
+          33,
+          26,
+          34
+        ]
+      }
+    }
+  },
+  "evidence": [
+    "overview",
+    "detail",
+    "interior",
+    "section"
+  ],
+  "routes": [
+    {
+      "id": "gate-to-hall",
+      "path": [
+        [
+          15,
+          2,
+          30
+        ],
+        [
+          15,
+          2,
+          29
+        ],
+        [
+          15,
+          2,
+          28
+        ],
+        [
+          15,
+          2,
+          27
+        ],
+        [
+          15,
+          2,
+          26
+        ],
+        [
+          15,
+          2,
+          25
+        ],
+        [
+          15,
+          2,
+          24
+        ],
+        [
+          15,
+          2,
+          23
+        ],
+        [
+          15,
+          2,
+          22
+        ],
+        [
+          15,
+          2,
+          21
+        ],
+        [
+          15,
+          2,
+          20
+        ],
+        [
+          15,
+          2,
+          19
+        ],
+        [
+          15,
+          2,
+          18
+        ],
+        [
+          15,
+          2,
+          17
+        ]
+      ]
+    }
+  ]
+}

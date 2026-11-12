@@ -1,0 +1,83 @@
+.camera-workspace-tabs {
+  display: flex;
+  padding: 8px 10px;
+  gap: 4px;
+  border-bottom: 1px solid #363636;
+  background: #202020;
+}
+.camera-workspace-tabs .button {
+  flex: 1;
+  white-space: nowrap;
+}
+.camera-workspace-tabs .button[aria-pressed='true'] {
+  background: #4c4c4c;
+  border-color: #6a6a6a;
+  color: #fff;
+}
+.camera-effects-header {
+  padding: 8px 12px;
+  display: grid;
+  gap: 5px;
+  border-bottom: 1px solid #373737;
+}
+.camera-effects-panel > fieldset {
+  min-inline-size: 0;
+}
+.camera-effects-panel .select-row > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.camera-fx-cut {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+.camera-fx-cut small,
+.camera-fx-event small {
+  color: #b1b1b1;
+  white-space: nowrap;
+}
+.camera-glass > summary {
+  cursor: pointer;
+  margin-block: 8px;
+  color: #d8d8d8;
+}
+.camera-fx-add {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+.camera-fx-add select {
+  min-width: 0;
+  flex: 1;
+}
+.camera-fx-add .button {
+  flex: 0 0 auto;
+}
+.camera-fx-events {
+  display: grid;
+  max-height: 160px;
+  overflow: auto;
+  scrollbar-gutter: stable;
+  margin-bottom: 8px;
+}
+.camera-fx-event {
+  min-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  text-align: left;
+  padding-inline: 7px;
+  border-bottom: 1px solid #393939;
+}
+.camera-fx-event:hover,
+.camera-fx-event[aria-pressed='true'] {
+  background: #414141;
+}
+.camera-fx-event-edit {
+  border-top: 1px solid #414141;
+  padding-top: 6px;
+}
